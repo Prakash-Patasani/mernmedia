@@ -1,0 +1,96 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  /* background: linear-gradient(to right, #fff5bc, #cec1ff); */
+  background-color: #c5d0ed63;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vmax;
+  padding: 60px;
+}
+
+.loginForm {
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 2vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginForm > input {
+  box-sizing: border-box;
+  padding: 1vmax 2vmax;
+  width: 80%;
+  border-radius: 40px;
+  border: 1px solid #ccc;
+  margin: 1.5vmax;
+  font: 100 1.2rem "Roboto", sans-serif;
+  outline: none;
+}
+.loginForm > a {
+  align-self: flex-end;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.342);
+  margin: 1.5vmax;
+}
+
+.add_new_user {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px !important;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  color: #291fc0e5 !important;
+  text-transform: uppercase;
+  font-weight: bold !important;
+  /* padding: 13px 11px; */
+  background: #d3c9c9;
+  padding: 10px 14px;
+  border-bottom: 1px solid #291fc0e5;
+  border-radius: 95px;
+  transition: all 0.3s ease;
+}
+.add_new_user:hover {
+  transform: scale(1.1) !important;
+  color: #45506e !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .loginForm {
+    width: 100%;
+  }
+
+  .loginForm > input {
+    padding: 4vw 8vw;
+    margin: 2vmax;
+    font: 100 1.2rem "Roboto", sans-serif;
+    margin: 4vw;
+  }
+
+  .loginForm > a {
+    align-self: center;
+  }
+}
+
+.button {
+  font-size: 16px !important;
+
+  padding: 7px 26px !important;
+
+  background-color: #5852b3 !important;
+  color: #fff !important;
+}
+.button:hover {
+  text-decoration: none;
+  background-color: #291fc0e5 !important;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
